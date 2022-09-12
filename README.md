@@ -21,9 +21,7 @@ Aplikasi Heroku yang sudah di-_deploy_ dapat diakses melalui link berikut:
 
 ## Jawaban Pertanyaan
 
-### Pertanyaan 1
-
-Buatlah bagan yang berisi _request client_ ke web aplikasi berbasis Django beserta responnya dan jelaskan pada bagan tersebut kaitan antara `urls.py`, `views.py`, `models.py`, dan berkas `html`
+### Pertanyaan 1: Buatlah bagan yang berisi _request client_ ke web aplikasi berbasis Django beserta responnya dan jelaskan pada bagan tersebut kaitan antara `urls.py`, `views.py`, `models.py`, dan berkas `html`
 
 **Jawab:**
 
@@ -31,9 +29,7 @@ Buatlah bagan yang berisi _request client_ ke web aplikasi berbasis Django beser
 
 Setiap _request_ yang masuk akan diproses oleh `urls.py` dan akan diteruskan ke `views.py` yang sesuai. Jika _request_ berhubungan dengan data, maka `views.py` akan melakukan _query_ ke `models.py` dan _database_. Hasil _query_ akan dikembalikan lagi ke `views.py`. Setelah itu, hasil yang sudah diperoleh akan dikembalikan lagi ke _client_ dalam bentuk `HTML` sebagai _response_.
 
-### Pertanyaan 2
-
-Jelaskan kenapa menggunakan _virtual environment_? Apakah kita tetap dapat membuat aplikasi web berbasis Django tanpa menggunakan _virtual environment_?
+### Pertanyaan 2: Jelaskan kenapa menggunakan _virtual environment_? Apakah kita tetap dapat membuat aplikasi web berbasis Django tanpa menggunakan _virtual environment_?
 
 **Jawab:**
 
@@ -44,10 +40,8 @@ Jawaban untuk pertanyaan kedua adalah bisa. Namun, terdapat beberapa kekurangan 
 
 Berkaca dari kekurangan-kekurangan di atas, dengan menggunakan _virtual environment_, kita seolah-olah memisahkan pengaturan dan _packages_ dari satu proyek Django dengan sistem operasi dan proyek Django lainnya dengan menciptakan lingkungan virtual sendiri. Oleh karena itu, perubahan yang terjadi pada satu proyek, tidak akan memengaruhi sistem operasi maupun proyek lainnya.
 
-### Pertanyaan 3
-
-3. Jelaskan bagaimana cara kamu mengimplementasikan poin 1 sampai dengan 4 di atas.
-4. 
+### Pertanyaan 3: Jelaskan bagaimana cara kamu mengimplementasikan poin 1 sampai dengan 4 di atas.
+ 
 **Jawab:**
 
 Hal pertama yang saya lakukan adalah membuat repository dari template yang sudah disediakan. Setelah itu, meng-cloning repository tersebut ke lokal. 
